@@ -1,0 +1,41 @@
+
+.yash p {
+    margin: 7px 0px 0px 0px;
+    white-space: nowrap;
+}
+
+.yas {
+    justify-content: space-between;
+}
+.yash {
+    justify-content: space-between;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+    .yas {
+        flex-direction: column;
+    }
+
+    .yash {
+        margin-top: 10px;
+    }
+
+    .yash p {
+        margin-bottom: 0px;
+        white-space: normal;
+    }
+
+    .yash a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+   .llst{
+       min-height: 405px;
+   }
+}
